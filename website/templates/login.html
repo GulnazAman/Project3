@@ -1,0 +1,46 @@
+{% extends "base.html" %}{% block title  %}Login{% endblock %}
+
+{% block content %}
+
+
+<h1> TCC Student Login Page </h1>
+{{ text }}
+<img src="https://www.tcc.edu/wp-content/uploads/2019/05/campuses-virginiabeach_1-1600x524.jpg"
+
+style="width: 583px; height: 190.933px;">
+
+
+<form method="POST">
+    <h3 align="center">Login</h3>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        placeholder="Enter email"
+        />
+    </div>
+ 
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input
+        type="password"
+        class="form-control"
+        id="password"
+        name="password"
+        placeholder="Enter password"
+        />
+    </div>
+
+   
+
+<br />
+<button type="submit" class="btn btn-primary">Login</button>
+
+
+
+</form>
+{% endblock %}
